@@ -1,0 +1,1 @@
+[{"humidity": "3", "heart_rate": 1, "fall_sensor": "3", "noise_level": "3", "blood_oxygen": "1", "gps_location": "3", "body_temperature": "3", "combustible_gases": null, "ambient_temperature": "3"}]

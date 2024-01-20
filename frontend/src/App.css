@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  min-height: calc(100vh);
+}
+
+:root {
+  --color-131921: #131921;
+  --color-3b4149: #3b4149;
+  --color-febd69: #febd69;
+  --color-232f3e: #232f3e;
+  --color-bf4800: #bf4800;
+  --color-1c1b1b: #1c1b1b;
+  --font-heading-family: Rubik, sans-serif;
+  --color-f5f5f7: #f5f5f7;
+  --color-ededed: #ededed;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+/*Header Part*/
+.header-top-strip {
+  border-bottom: 1px solid var(--color-3b4149);
+  background-color: var(--color-131921);
+}
+
+.login-page {
+  background-color: #0fc33c;
+  min-height: 79.5vh;
+}
+
+/*This is NavBar Page*/
+.navbar-user {
+  /* margin: 15px -5px;
+  padding: 5px 15px; */
+  display: flex;
+  /* border-radius: 10px; */
+    -webkit-box-align: center;
+    /* background-color: rgba(125, 136, 148, 0.12); */
+  }
+  
+  .navbar-user-name {
+    margin-left: 12px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: rgba(125, 136, 148, 0.12);
+  }
+  
+  .home-navbar {
+    background-color: #ccd6e1;
+  }
+  
+  .home-navbar .navlinks {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home-navbar .navlinks a {
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  ;
+}
+
+.home-navbar .navlinks a:hover {
+  scale: 1.1;
+  color: red;
+}
+
+.dashboard-wrapper-1 {
+  background-color: #eef6ff;
+  min-height: 79.5vh;
+}
+
+
+.dashboard-wrapper-1 .sensor:hover {
+  outline: none;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.5s;
+  background-color: rgb(172, 64, 64);
+  scale: 1.1;
+}
+
+.dashboard-wrapper-1 .sensor {
+  background-color: #eef6ff;
+  padding: 1%;
+  border-radius: 15px;
+  width: 300px;
+  /* Replace with the width you want */
+  height: 120px;
+  /* Replace with the height you want */
+  overflow: auto;
+  margin-bottom: 16px;
+  margin-right: 18px;
+}
+
+/* Footer Part */
+footer {
+  background-color: var(--color-232f3e);
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+  }
+  
+  footer .footer-icon:hover {
+    transform: rotateY(360deg);
+    transition: transform 0.5s ease-in-out;
+  
+  }
+  
+  /* Footer Part Ends Here. */
+  
+  /*Profile Starts Here.*/
+  .profile {
+    background-color: #eef6ff;
+    min-height: 79.5vh;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+  }
+  
+  .profile-button {
+    background: var(--color-3b4149);
+    border: none;
+    font-size: 20px;
+  }
+  
+  .profile-button:hover .profile-button:active {
+    background: var(--color-febd69);
+    scale: 1.1;
+  }
+  
+  .profile-button:focus {
+    background: var(--color-bf4800);
+    box-shadow: none
+  }
+  
+  .profile .rounded-circle:hover {
+    transform: rotateY(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* .profile-button:active {
+  background: #682773;
+  box-shadow: none
+} */
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+.profile-labels {
+  font-size: 15px
+}
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+/* Records Part */
+.dataCard .revenueCard {
+  box-sizing: border-box;
+  display: block;
+  height: 500px;
+  width: 700px;
+}
+
+.records {
+  background-color: #eef6ff;
+  min-height: 79.5vh;
+}
