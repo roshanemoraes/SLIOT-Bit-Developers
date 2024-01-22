@@ -70,8 +70,11 @@ const options = {
       },
     },
     y: {
-      min: 22.5,
-      max: 26,
+      // min: 22.5,
+      // max: 26,
+      ticks: {
+        source: "auto",
+      },
     },
   },
 };
@@ -315,9 +318,9 @@ const Records = () => {
               <div
                 className="dataCard revenueCard d-felx justify-content-between align-items-center"
                 style={{
-                  width: "100%",
+                  width: "1400px",
                   // height: "100%",
-                  height: "500px",
+                  height: "700px",
                   margin: "0 auto",
                   padding: "20px",
                 }}
