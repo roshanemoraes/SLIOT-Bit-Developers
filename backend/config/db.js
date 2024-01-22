@@ -4,11 +4,12 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const db = mysql.createPool({
-    connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: '12345',
-    database: 'nodemcu'
+  connectionLimit: 10,
+  host: "localhost",
+  user: "root",
+  password: "12345",
+  database: "nodemcu",
+  timezone: "Z", // This sets the timezone to UTC
 });
 
 // Test database connection

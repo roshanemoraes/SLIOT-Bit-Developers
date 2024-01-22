@@ -9,6 +9,7 @@ router.post('/dashboard', dataController.populateDashboard);
 
 
 router.post('/blood-oxygen', dataController.bloodOxygenSensor);
+router.post("/sensor-reports", dataController.individualSensorData);
 
 // TODO: Ask others and add other routes if required
 

@@ -10,7 +10,7 @@ const PastRecords = () => {
     setSelectedSensor(sensor);
   };
 
-  const apiEndpoint = "http://localhost:8080/data/dashboard";
+  const apiEndpoint = "http://localhost:8080/sensor/reports";
   const chartOptions = {
     plugins: {
       legend: {
