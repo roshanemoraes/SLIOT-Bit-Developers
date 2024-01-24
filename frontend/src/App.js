@@ -7,6 +7,8 @@ import HomeLayout from "./components/homeLayout";
 import Dashboard from "./pages/dashboard";
 import Profile from "./pages/profile";
 import Records from "./pages/records";
+import AdminLanding from "./pages/adminLanding";
+import AdminDetailed from "./pages/adminDetailed";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="profile" element={<Profile />} />
           <Route path="records" element={<Records />} />
+          <Route path="adminLanding" element={<AdminLanding />} />
+          <Route path="adminDetailed" element={<AdminDetailed />} />
         </Route>
       </Routes>
     </BrowserRouter>
